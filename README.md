@@ -1,6 +1,12 @@
 # RoleCraft
 
-An AI-Assisted Resume-to-Job Matching and Application Tailoring System
+### AI-Assisted Resume-to-Job Matching and Application Tailoring System
+
+> Craft your resume. Match the role. Apply with confidence.
+
+---
+
+## 📌 Project Overview
 
 RoleCraft is a web-based application designed to help job seekers improve
 the alignment between their resume and a specific job posting.
@@ -14,7 +20,9 @@ intelligence to provide job-specific recommendations. Based on the analysis,
 RoleCraft can assist users in tailoring their resume and generating a
 job-specific cover letter.
 
-##OBJECTIVES
+---
+
+## 🎯 Objectives
 
 - Analyze a user's resume against a target job posting.
 - Identify relevant and missing skills.
@@ -25,90 +33,114 @@ job-specific cover letter.
 - Generate a job-specific cover letter.
 - Provide an accessible web-based application deployed through Vercel.
 
-##CORE FEATURES
+---
 
-Resume Management
-  - Upload resume
-  - View resume information
-  - Manage resume versions
-  - Extract resume information
+## ✨ Core Features
 
-Job Post Management
-  - Paste job descriptions
-  - Extract job requirements
-  - Identify required and preferred qualifications
+### Resume Management
+- Upload resume
+- View resume information
+- Manage resume versions
+- Extract resume information
 
-Resume-to-Job Analysis
-  - Skill matching
-  - Keyword analysis
-  - Experience alignment
-  - Job-fit score
-  - Skill-gap identification
+### Job Post Management
+- Paste job descriptions
+- Extract job requirements
+- Identify required and preferred qualifications
 
- AI-Assisted Features
-  - Resume parsing
-  - Job description analysis
-  - Semantic skill matching
-  - Skill-gap recommendations
-  - Resume tailoring
-  - Cover letter generation
+### Resume-to-Job Analysis
+- Skill matching
+- Keyword analysis
+- Experience alignment
+- Job-fit score
+- Skill-gap identification
 
-ATS-Oriented Analysis
-  - Keyword coverage
-  - Requirement coverage
-  - Job-specific terminology
-  - Resume improvement recommendations
+### AI-Assisted Features
+- Resume parsing
+- Job description analysis
+- Semantic skill matching
+- Skill-gap recommendations
+- Resume tailoring
+- Cover letter generation
 
+### ATS-Oriented Analysis
+- Keyword coverage
+- Requirement coverage
+- Job-specific terminology
+- Resume improvement recommendations
 
-##AI INTEGRATION
+---
 
-RoleCraft does not rely entirely on artificial intelligence.The system combines conventional programming techniques with AI-assisted processing.
+## 🤖 AI Integration
 
-Conventional Processing
-  - File validation
-  - PDF text extraction
-  - Database operations
-  - Authentication
-  - Keyword matching
-  - Score calculations
-  - File management
-  - Access control
+RoleCraft does not rely entirely on artificial intelligence.
 
-AI-Assisted Processing
-  - Resume contextual analysis
-  - Job description interpretation
-  - Semantic skill matching
-  - Skill-gap analysis
-  - Resume tailoring
-  - Cover letter generation
+The system combines conventional programming techniques with AI-assisted
+processing.
 
+### Conventional Processing
 
-##TECH STACK
+- File validation
+- PDF text extraction
+- Database operations
+- Authentication
+- Keyword matching
+- Score calculations
+- File management
+- Access control
 
-Frontend
-  - Next.js
-  - TypeScript
-  - Tailwind CSS
+### AI-Assisted Processing
 
-Backend
+- Resume contextual analysis
+- Job description interpretation
+- Semantic skill matching
+- Skill-gap analysis
+- Resume tailoring
+- Cover letter generation
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Recharts
+
+### Backend
 - Next.js Route Handlers
 - TypeScript
 - Zod
 
-Database and Storage
+### Database and Storage
 - Supabase
 - PostgreSQL
 - Supabase Authentication
 - Supabase Storage
 
-Artificial Intelligence
+### Artificial Intelligence
 - Gemini 2.5 Flash
 - Vercel AI SDK
 
-Deployment
+### Testing
+- Vitest
+- Playwright
+
+### Development
+- Git
+- GitHub
+- GitHub Projects
+- Kanban
+
+### Deployment
 - Vercel
 
-Repository Structure
+---
+
+## REPOSITORY STRUCTURE
+
 ```text
 RoleCraft/
 ├── .github/
@@ -131,19 +163,3 @@ RoleCraft/
 ├── README.md
 └── package.json
 
-##⚠️ Project Scope
-
-The initial version will focus on user-provided resumes and job
-descriptions.
-
-Users will initially provide job postings through text input or
-copy-and-paste.
-
-The system will not directly scrape or integrate with third-party
-platforms such as LinkedIn, JobStreet, Indeed, Upwork, or OnlineJobs.ph.
-
-The application will not guarantee employment, interview selection, or
-ATS acceptance.
-
-AI-generated recommendations and documents should be reviewed by the
-user before being submitted to an employer.

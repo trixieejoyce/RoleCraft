@@ -14,7 +14,7 @@ intelligence to provide job-specific recommendations. Based on the analysis,
 RoleCraft can assist users in tailoring their resume and generating a
 job-specific cover letter.
 
-OBJECTIVES
+##OBJECTIVES
 
 - Analyze a user's resume against a target job posting.
 - Identify relevant and missing skills.
@@ -25,7 +25,7 @@ OBJECTIVES
 - Generate a job-specific cover letter.
 - Provide an accessible web-based application deployed through Vercel.
 
-CORE FEATURES
+##CORE FEATURES
 
 Resume Management
   - Upload resume
@@ -60,7 +60,7 @@ ATS-Oriented Analysis
   - Resume improvement recommendations
 
 
-AI INTEGRATION
+##AI INTEGRATION
 
 RoleCraft does not rely entirely on artificial intelligence.The system combines conventional programming techniques with AI-assisted processing.
 
@@ -83,7 +83,7 @@ AI-Assisted Processing
   - Cover letter generation
 
 
-TECH STACK
+##TECH STACK
 
 Frontend
   - Next.js
@@ -131,7 +131,7 @@ RoleCraft/
 ├── README.md
 └── package.json
 
-⚠️ Project Scope
+##⚠️ Project Scope
 
 The initial version will focus on user-provided resumes and job
 descriptions.

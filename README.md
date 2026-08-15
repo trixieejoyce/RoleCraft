@@ -130,3 +130,20 @@ RoleCraft/
 ├── .gitignore
 ├── README.md
 └── package.json
+
+⚠️ Project Scope
+
+The initial version will focus on user-provided resumes and job
+descriptions.
+
+Users will initially provide job postings through text input or
+copy-and-paste.
+
+The system will not directly scrape or integrate with third-party
+platforms such as LinkedIn, JobStreet, Indeed, Upwork, or OnlineJobs.ph.
+
+The application will not guarantee employment, interview selection, or
+ATS acceptance.
+
+AI-generated recommendations and documents should be reviewed by the
+user before being submitted to an employer.
